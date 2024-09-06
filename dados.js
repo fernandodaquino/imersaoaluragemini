@@ -12,12 +12,13 @@ let dados = [
         ABV: "6-7.5%",
         IBU: "60-100",
         SRM: "6-14",
-        harmonizacao: "Hambúrgueres, asas de frango, queijos azuis"
+        harmonizacao: "Hambúrgueres, asas de frango, queijos azuis",
+        tags: "IPA AIPA amarga",
     },
     {
+        nome: "American Pale Ale",
         categoria: "Ales",
         subcategoria: "American Ale",
-        nome: "American Pale Ale",
         impressoesGerais: "Cerveja lupulada, sabor maltado balanceado.",
         aparencia: "Âmbar claro, transparente, espuma cremosa.",
         aroma: "Lúpulo floral e cítrico, leve malte.",
@@ -26,7 +27,8 @@ let dados = [
         ABV: "5-6%",
         IBU: "30-45",
         SRM: "5-10",
-        harmonizacao: "Frango assado, saladas, queijos leves"
+        harmonizacao: "Frango assado, saladas, queijos leves",
+        tags: "APA amarga",
     },
     {
         categoria: "Ales",
@@ -40,7 +42,8 @@ let dados = [
         ABV: "5-6%",
         IBU: "30-45",
         SRM: "5-10",
-        harmonizacao: "Frango assado, saladas, queijos leves"
+        harmonizacao: "Frango assado, saladas, queijos leves",
+        tags: "EPA amarga",
     },
     {
         categoria: "Lagers",
@@ -54,7 +57,8 @@ let dados = [
         ABV: "4.5-5.5%",
         IBU: "25-40",
         SRM: "3-5",
-        harmonizacao: "Saladas, frutos do mar, carnes brancas"
+        harmonizacao: "Saladas, frutos do mar, carnes brancas",
+        tags: "Pilsen leve",
     },
     {
         categoria: "Wheat Beers",
@@ -68,7 +72,8 @@ let dados = [
         ABV: "5-5.5%",
         IBU: "10-15",
         SRM: "8-10",
-        harmonizacao: "Frutas, queijos suaves, pratos leves"
+        harmonizacao: "Frutas, queijos suaves, pratos leves",
+        tags: "Weiss Weizen",
     },
     {
         categoria: "Stouts",
@@ -82,7 +87,8 @@ let dados = [
         ABV: "4-8%",
         IBU: "20-60",
         SRM: "30-40",
-        harmonizacao: "Carnes vermelhas, sobremesas, queijos azuis"
+        harmonizacao: "Carnes vermelhas, sobremesas, queijos azuis",
+        tags: "preta maltada forte",
     },
     {
         categoria: "Belgian Ales",
@@ -96,7 +102,8 @@ let dados = [
         ABV: "8-11%",
         IBU: "20-35",
         SRM: "5-10",
-        harmonizacao: "Queijos azuis, carnes assadas, sobremesas"
+        harmonizacao: "Queijos azuis, carnes assadas, sobremesas",
+        tags: "belga paulada pancada",
     },
     {
         categoria: "Sours",
@@ -110,7 +117,8 @@ let dados = [
         ABV: "5-6%",
         IBU: "1-5",
         SRM: "3-5",
-        harmonizacao: "Ostras, frutos do mar, queijos leves, sobremesas ácidas"
+        harmonizacao: "Ostras, frutos do mar, queijos leves, sobremesas ácidas",
+        tags: "azeda ácida vinagre belga",
     },
     {
         categoria: "Ales",
@@ -124,7 +132,8 @@ let dados = [
         ABV: "8-12%",
         IBU: "30-50",
         SRM: "20-30",
-        harmonizacao: "Queijos azuis, carnes assadas, sobremesas"
+        harmonizacao: "Queijos azuis, carnes assadas, sobremesas",
+        tags: "paulada pancada inglesa",
     },
     {
         categoria: "Stouts",
@@ -138,7 +147,8 @@ let dados = [
         ABV: "4-5%",
         IBU: "30-40",
         SRM: "30-40",
-        harmonizacao: "Ostras, frutos do mar, queijos azuis"
+        harmonizacao: "Ostras, frutos do mar, queijos azuis",
+        tags: "preta leve irlandesa",
     },
     {
         categoria: "Ales",
@@ -152,7 +162,8 @@ let dados = [
         ABV: "5-7%",
         IBU: "20-35",
         SRM: "20-30",
-        harmonizacao: "Caçarolas, carnes assadas, queijos fortes"
+        harmonizacao: "Caçarolas, carnes assadas, queijos fortes",
+        tags: "escocesa",
     },
     {
         categoria: "Ales",
@@ -166,7 +177,8 @@ let dados = [
         ABV: "4-5%",
         IBU: "20-30",
         SRM: "12-17",
-        harmonizacao: "Queijos leves, carnes assadas, frango"
+        harmonizacao: "Queijos leves, carnes assadas, frango",
+        tags: "irlandesa vermelha leve",
     },
     {
         categoria: "Ales",
@@ -180,7 +192,8 @@ let dados = [
         ABV: "6-7%",
         IBU: "20-25",
         SRM: "15-20",
-        harmonizacao: "Queijos fortes, carnes assadas, chocolate amargo"
+        harmonizacao: "Queijos fortes, carnes assadas, chocolate amargo",
+        tags: "belga paulada pancada",
     },
     {
         categoria: "Lagers",
@@ -194,7 +207,8 @@ let dados = [
         ABV: "5-6%",
         IBU: "18-25",
         SRM: "10-14",
-        harmonizacao: "Carnes assadas, salsichas, queijos semi-duros"
+        harmonizacao: "Carnes assadas, salsichas, queijos semi-duros",
+        tags: "alemã alema alemanha leve",
     },
     {
         categoria: "Wheat Beers",
@@ -208,7 +222,8 @@ let dados = [
         ABV: "4.5-5.5%",
         IBU: "10-15",
         SRM: "2-4",
-        harmonizacao: "Frutos do mar, saladas, queijos leves"
+        harmonizacao: "Frutos do mar, saladas, queijos leves",
+        tags: "belga leve",
     },
     {
         categoria: "Stouts",
@@ -222,7 +237,8 @@ let dados = [
         ABV: "5-8%",
         IBU: "30-60",
         SRM: "30-40",
-        harmonizacao: "Carnes vermelhas grelhadas, queijos azuis, sobremesas de chocolate"
+        harmonizacao: "Carnes vermelhas grelhadas, queijos azuis, sobremesas de chocolate",
+        tags: "preta americana pesada",
     },
     {
         categoria: "Sours",
@@ -236,7 +252,8 @@ let dados = [
         ABV: "3-4%",
         IBU: "5-10",
         SRM: "2-4",
-        harmonizacao: "Frutos do mar, saladas, pratos leves"
+        harmonizacao: "Frutos do mar, saladas, pratos leves",
+        tags: "ácida azeda belga",
     },
     {
         categoria: "Lagers",
@@ -250,7 +267,8 @@ let dados = [
         ABV: "4.5-5.5%",
         IBU: "18-25",
         SRM: "15-20",
-        harmonizacao: "Carnes assadas, queijos semi-duros, pratos defumados"
+        harmonizacao: "Carnes assadas, queijos semi-duros, pratos defumados",
+        tags: "alema alemã alemanha preta leve",
     },
     {
         categoria: "Wheat Beers",
@@ -264,6 +282,7 @@ let dados = [
         ABV: "4-5%",
         IBU: "10-15",
         SRM: "2-4",
-        harmonizacao: "Frango grelhado, saladas, frutos do mar"
+        harmonizacao: "Frango grelhado, saladas, frutos do mar",
+        tags: "americana leve",
     },
 ];
